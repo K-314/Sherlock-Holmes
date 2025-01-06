@@ -59,3 +59,10 @@ Z bardziej zaawansowanych technologi w projekcie zastosowane są media Query, kt
 }
 
 ```
+
+##
+
+![stopka](https://github.com/user-attachments/assets/f8374c8f-de77-474e-b753-f8be7c981f13)
+
+>Created by: Kacper W. 
+
