@@ -7,7 +7,7 @@
 
 > Strona internetowa *„Consulting Detective”* to wizytówka stylizowana na usługi Sherlocka Holmesa. Prezentuje się jako **interaktywna i responsywna**, z sekcjami o autorze, jego sprawach, formularzem zgłoszeniowym, cennikiem usług oraz kontaktami. **Nagłówek zawiera nawigację**, prowadzącą do kluczowych części: „O mnie”, „Sprawy”, „Zgłoś sprawę”, „Cennik” i „Kontakt”. Znajdziemy tu również opis postaci Sherlocka, wybrane rozwiązane sprawy z krótkimi notkami i zdjęciami, a także cennik prezentujący trzy typy zleceń o różnym poziomie skomplikowania. Strona jest bogata w detale, takie jak ikonki mediów społecznościowych i formularz kontaktowy. Styl graficzny jest prosty, przejrzysty, z użyciem CSS i czcionek Font Awesome.
 
-### interaktywność
+### Interaktywność
 
 Poniżej mamy przykład interaktywnego elementu, który sprawia, że kontener powieksza się. 
 
