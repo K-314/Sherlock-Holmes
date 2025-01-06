@@ -1,0 +1,847 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Nagłówek, tytuł*/
+
+.header_background {
+    background-image: url(https://raw.githubusercontent.com/frontschool/portfolio/main/img/hero.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: 2400px;
+    padding-bottom: 150px;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_navi {
+    display: flex;
+    height: 10%;
+}
+
+.header_title_title {
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+}
+
+.header_title_navi {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_title_navi a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.1s;
+}
+
+.header_title_navi a:hover {
+    color: orange;
+}
+
+.header_title_main {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.header_title_main h1 {
+    margin-right: 30px;
+}
+
+.header_title_main p {
+    margin-left: 100px;
+    font-size: 17px;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.header_title_main_countainer {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Kim jestem?*/
+
+.WhoAmI {
+    display: flex;
+    flex-direction: column;
+}
+
+.WhoAmI_top {
+    display: flex;
+    margin: 40px;
+}
+
+.WhoAmI_top_picture {
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.WhoAmI_top_picture:hover {
+    transform: scale(1.1);
+}
+
+.WhoAmI_top_picture img {
+    width: 300px;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+
+.WhoAmI_top_discription {
+    width: 60%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.WhoAmI_top_discription {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/*Kim jestem? atrybuty*/
+
+
+.WhoAmI_bottom_atributes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+}
+
+.atributes_bar p {
+    margin-bottom: -10px;
+    margin-left: 40px;
+}
+
+.atributes_bar_back {
+    width: 80%;
+    height: 20px;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 15px;
+    margin: 5%;
+}
+
+#atributes_bar_one {
+    width: 90%;
+    height: 20px;
+    background-color: orange;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#atributes_bar_two {
+    width: 25%;
+    height: 20px;
+    background-color: orange;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#atributes_bar_three {
+    width: 75%;
+    height: 20px;
+    background-color: orange;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#atributes_bar_four {
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*rozwiązane sprawy*/
+
+.solved_cases_background {
+    background-color: rgb(243, 243, 243);
+}
+
+.solved_cases_background h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.solved_cases_big {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 60px;
+}
+
+.solved_cases_big_countainer {
+    width: 240px;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+.solved_cases_big_countainer:hover {
+ transform: scale(1.05);
+}
+
+.solved_cases_big img{
+    width: 240px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.level_easy {
+    background-color: rgba(255, 230, 0, 0.699);
+    border-radius: 5px;
+}
+
+.level_hard {
+    background-color: rgba(255, 0, 0, 0.733);
+    color: white;
+    border-radius: 5px;
+}
+
+.solved_cases_button {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.solved_cases_button:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    transform: scale(1.1);
+}
+
+.solved_cases_button:focus {
+    transform: scale(0.9);
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+
+
+/*tabela*/
+
+
+body {
+    --easy-color:#cffebf94;
+    --medium-color:#f6b12791;
+    --hard-color:#fb00369d;
+}
+
+.section_table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+    margin-bottom: 70px;
+}
+
+#table_titls {
+    background-color: white;
+    border: 2px solid orange;
+}
+
+.table th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(223, 223, 223);
+}
+
+.table-level {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#table_easy { 
+    background-color: var(--easy-color);
+}
+
+#table_medium {
+    background-color: var(--medium-color);
+}
+
+#table_hard {
+    background-color: var(--hard-color);
+}
+
+#yers_same_color {
+    background-color: rgb(224, 224, 224);
+}
+
+#two_yers_same_color {
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*formularz*/
+
+.forms_countainer {
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+}
+
+.forms_title {
+    margin-left: 30px;
+}
+
+.forms {
+    display: flex;
+    margin-bottom: 80px;
+    padding: 30px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 0.1px rgb(190, 190, 190);
+}
+
+.forms_left {
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.only_inputs_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.only_inputs_left input{
+    margin-bottom: 10px;
+    width: 60%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.forms_right {
+    padding: 15px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.single_forms_right {
+    margin-top: 10px;
+    width: 60%;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+#subject {
+    width: 50%;
+    height: 20px;
+}
+
+#send {
+    width: 60px;
+}
+
+#checkbox:hover {
+    cursor: pointer;
+}
+
+#checkbox_full {
+    display: flex;
+}
+
+#checkbox_full p {
+    font-size: small;
+    margin-right: 50px;
+}
+
+#send {
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.2s;
+    width: 70px;
+    height: 20px;
+}
+
+#send:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*cennik*/
+
+
+.three_posts_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-post {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 405px;
+    line-height: 40%;
+    box-shadow: 5px 5px 20px 1px gray;
+    margin: 40px;
+    transition: 0.3s;
+}
+
+.first-post:hover {
+    transform: scale(1.05);
+}
+
+.first-post img {
+    width: 130px;
+}
+
+.first-post h3 {
+    font-size: x-large;
+}
+
+#first-post_price {
+    font-size: xx-large;
+}
+
+.second-post {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 405px;
+    line-height: 40%;
+    box-shadow: 5px 5px 20px 1px gray;
+    margin: 40px;
+    transition: 0.3s;
+}
+
+.second-post:hover {
+    transform: scale(1.05);
+}
+
+.second-post img {
+    width: 130px;
+}
+
+.second-post h3 {
+    font-size: x-large;
+}
+
+#second-post_price {
+    font-size: xx-large;
+}
+
+.third-post {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 405px;
+    line-height: 40%;
+    box-shadow: 5px 5px 20px 1px gray;
+    margin: 40px;
+    transition: 0.3s;
+}
+
+.third-post:hover {
+    transform: scale(1.05);
+}
+
+.third-post img {
+    width: 130px;
+}
+
+.third-post h3 {
+    font-size: x-large;
+}
+
+#third-post_price {
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*stopka*/
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.contact_and_media {
+    display: flex;
+}
+
+.contact {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+     margin: 20px;
+}
+
+.contact_phone {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact_mail {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact_license {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.circle i {
+    color: black;
+}
+
+.social-media {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.circle_two {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.circle_two:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.circle_two i {
+    font-size: 20px;
+    transition: 0.2s;
+    color: black;
+}
+
+.circle_two:hover i {
+    scale: 1.3;
+    color: white;
+}
+
+.social-media_buttons {
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Consulting_Detective {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- Media Query ----------------*/
+
+/*1100px*/
+
+@media  screen and (max-width: 1100px) {
+
+}
+
+
+
+
+/*1050px*/
+@media screen and (min-width: 715px) and (max-width: 1050px) {
+    .third-post {
+        width: 500px;
+    }
+}
+
+
+
+
+
+/*1000px*/
+
+@media screen and (max-width: 1000px) {
+    .WhoAmI_top {
+        flex-direction: column;
+    }
+
+    .WhoAmI_top_picture {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .WhoAmI_top_discription {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+
+
+
+/*900px*/
+@media screen and (max-width:900px) {
+
+    .header_navi {
+        flex-direction: column;
+    }
+
+    .header_title_title {
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 5%;
+    }
+
+    .header_title_navi {
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 5%;
+    }
+
+    .header_title_main p {
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+    .forms {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forms_left {
+        width: 100%;
+    }
+
+    .forms_right {
+        width: 100%;
+        padding-left: 40%;
+    }
+}
+
+
+
+
+/*800px*/
+@media screen and (max-width: 800px) {
+    
+    .header_title_main {
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+
+    
+    
+    
+    .WhoAmI_bottom_atributes {
+        grid-template-columns: 1fr;
+    }
+
+    .atributes_bar p {
+        margin-bottom: -20px;
+        margin-left: 60px;
+    }
+
+    .atributes_bar {
+        margin-top: -10px;
+    }
+}
+
+
+
+
+
+/*715px*/
+
+@media screen and (max-width: 715px) {
+    .contact_and_media {
+        flex-direction: column-reverse;
+    }
+
+    .social-media {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+    }
+}
